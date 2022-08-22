@@ -1,0 +1,40 @@
+name: app_menu
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+  flutter_launcher_icons: ^0.10.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/plug.png
+    - assets/checklist.png
+    - assets/name.png
+    - assets/map.png
+    - assets/Fuerte.jpg
+    - assets/Entrada.jpg
+    - assets/Postre.jpg
+    - assets/Bebidas.jpg
+    - assets/BackGround.jpg
+    - assets/bandeja.png
